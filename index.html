@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Specifies the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport properties for responsive design -->
+    <script src="index.js"></script> <!-- Links to the JavaScript file -->
+    <link rel="stylesheet" href="style.css?version=1.0"> <!-- Links to the CSS file -->
+    <title>Currency Converter</title> <!-- Sets the title of the document -->
+</head>
+<body>
+    <!-- Container for the currency converter -->
+    <div id="converter">
+        <h2>Currency Converter</h2> <!-- Heading for the currency converter -->
+        <!-- Input field for entering the amount to be converted -->
+        <input type="number" id="amount" placeholder="Enter amount...">
+        <!-- Dropdown for selecting the currency to convert from -->
+        <select id="fromCurrency">
+            <!-- Options for different currencies to convert from -->
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="JPY">JPY</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CNY">CNY</option>
+            <option value="HKD">HKD</option>
+            <option value="INR">INR</option>
+        </select>
+        <!-- Dropdown for selecting the currency to convert to -->
+        <select id="toCurrency">
+            <!-- Options for different currencies to convert to -->
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="JPY">JPY</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CNY">CNY</option>
+            <option value="HKD">HKD</option>
+            <option value="INR">INR</option>
+        </select>
+        <!-- Button to initiate currency conversion -->
+        <input type="submit" value="Convert" onclick="convertCurrency()">
+        <!-- Placeholder for displaying the result of the conversion -->
+        <div id="result"></div>
+    </div>
+
+    <script src="index.js"></script> <!-- Links to the JavaScript file -->
+</body>
+</html>

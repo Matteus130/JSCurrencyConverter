@@ -1,0 +1,80 @@
+/* Styles for the entire body of the HTML document */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the entire document */
+    background-color: #DFF0E2; /* Sets the background color */
+    text-align: center; /* Aligns text content to the center */
+}
+
+/* Styles for a container element */
+.container {
+    display: flex; /* Uses flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+}
+
+/* Styles for the converter element */
+#converter {
+    margin: 50px auto; /* Centers the element horizontally with some top margin */
+    background-color: #d0d0d0; /* Background color for the converter */
+    border-radius: 8px; /* Adds rounded corners to the converter */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+    padding: 20px; /* Adds internal padding */
+    width: 750px; /* Sets a fixed width for the converter */
+    border: 4px solid #06641f; /* Sets the border style */
+}
+
+/* Styles for the h2 element */
+h2 {
+    margin-top: 0; /* Removes default top margin */
+    font-size: 35px; /* Sets the font size */
+}
+
+/* Styles for number input and select elements */
+input[type="number"],
+select {
+    width: calc(100% - 22px); /* Calculates the width */
+    padding: 10px; /* Adds internal padding */
+    font-size: 40px; /* Sets the font size */
+    text-align: center; /* Aligns text content to the center */
+    margin-bottom: 5px; /* Adds some bottom margin */
+    border: 4px solid #426047; /* Sets the border style */
+    border-radius: 10px; /* Adds rounded corners to the input */
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+    width: 100%; /* Sets the width to 100% */
+    padding: 10px; /* Adds internal padding */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    background-color: rgb(102, 158, 125); /* Sets the background color */
+    color: #fff; /* Sets the text color */
+    border: none; /* Removes the border */
+    border-radius: 5px; /* Adds rounded corners */
+    font-size: 50px; /* Sets the font size */
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #426047; /* Changes background color on hover */
+}
+
+/* Styles for the result element */
+#result {
+    margin-top: 20px; /* Adds some top margin */
+    padding: 10px; /* Adds internal padding */
+    background-color: #f9f9f9; /* Sets the background color */
+    border: 1px solid #ccc; /* Sets the border style */
+    border-radius: 5px; /* Adds rounded corners */
+    font-size: 40px; /* Sets the font size */
+    text-align: center; /* Aligns text content to the center */
+}
+
+/* Additional styles for select elements */
+select {
+    width: calc(99% - 125px); /* Calculates the width */
+    padding: 30px; /* Adds internal padding */
+    margin-bottom: 15px; /* Adds some bottom margin */
+    border: 4px solid #93ac97; /* Sets the border style */
+    border-radius: 10px; /* Adds rounded corners */
+}
